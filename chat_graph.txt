@@ -1,0 +1,6 @@
+/* To view contents open the https://dreampuf.github.io/GraphvizOnline */
+digraph G {
+start -> read_name;
+read_name -> read_name;
+read_name -> end_state;
+}
